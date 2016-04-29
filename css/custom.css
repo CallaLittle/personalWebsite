@@ -1,0 +1,57 @@
+
+
+/*#callalily {
+	position: absolute;
+}*/
+
+#myname {
+/*	position: absolute;
+	margin-left: 37%; */
+	margin-top: 20%;
+	font-size: 50px;	
+}
+
+#myname h1{
+	font-size: 6vw;	
+}
+
+#expertise {
+/*	position: absolute;
+	margin-left: 42%;
+	margin-top: 15%;*/
+	font-size: 4vw;	
+}
+
+.icon-bar {
+   background-color: #FF0000 !important;
+}
+
+.navbar-brand {
+	font-size: 16px;
+}
+
+@media all and (max-width: 992px){
+/*	#expertise {
+		position: absolute;
+		margin-left: 25%;
+		margin-top: 110%;*/
+/*		font-size: 2.5vw;	
+	}
+
+	#myname {
+		margin-top: 0%;
+	}
+
+	#callalily {
+		margin-top: 15%;
+	}
+
+	#myname h1{
+		font-size: 4vw;	
+	}
+}*/
+
+/*#rose {
+	margin-top: 25%;
+	width: 500px;
+}*/
