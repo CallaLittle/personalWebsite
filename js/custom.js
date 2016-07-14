@@ -1,23 +1,29 @@
 // load gallary as default
 $(document).ready(function () {
 
+	$('#navContainer').hide();
 
+	// $('#content').load('landing.html');
+	
 	// load gallary when clicked
-	$("#portfolio").on('click', taco);
+	$(".portfolio").on('click', function() {
 
-
-
-	$("#about").click(function()
-		{
-			$("#content").load("about.html");
-			
-			return false;
-		});
-
-function taco() {	
-
-	$("#content").load("maps.html")
+		$('#navContainer').show();
+		$('#landing').hide();
+		$("#content").load("maps.html")
 		
-	return false;
-};
+		return false;
+
+	});
+
+	$(".about").on('click', function() {
+
+		$('#navContainer').show();
+		$('#landing').hide();
+		$("#content").load("about.html");
+			
+		return false;
+		
+	});
+
 });

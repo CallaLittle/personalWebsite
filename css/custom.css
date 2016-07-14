@@ -8,18 +8,20 @@
 /*	position: absolute;
 	margin-left: 37%; */
 	margin-top: 20%;
-	font-size: 50px;	
+/*	font-size: 50px;*/	
 }
 
 #myname h1{
 	font-size: 6vw;	
+	letter-spacing: .5vw;
 }
 
 #expertise {
 /*	position: absolute;
 	margin-left: 42%;
 	margin-top: 15%;*/
-	font-size: 4vw;	
+	font-size: 2.5vw;	
+
 }
 
 .icon-bar {
@@ -29,6 +31,11 @@
 .navbar-brand {
 	font-size: 16px;
 }
+
+
+/*.container {
+	height: 50px !important;
+}*/
 
 @media all and (max-width: 992px){
 /*	#expertise {
