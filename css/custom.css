@@ -4,11 +4,12 @@
 	position: absolute;
 }*/
 
-#taco {
-	float: right;
-	width: 500px;
-}
 
+
+/*li {
+	list-style-type: none;
+}
+*/
 #myname {
 /*	position: absolute;
 	margin-left: 37%; */
@@ -16,17 +17,43 @@
 /*	font-size: 50px;*/	
 }
 
+
 #myname h1{
 	font-size: 6vw;	
 	letter-spacing: .5vw;
 }
 
-#expertise {
+.expertise {
 /*	position: absolute;
 	margin-left: 42%;
 	margin-top: 15%;*/
 	font-size: 2.5vw;	
 
+}
+
+#scroll-button {
+	position: relative;
+	margin-right: 50%;
+	margin-left: 50%;
+		background-color: #CEC5B6;
+}
+
+.glyphicon {
+	font-size: 2.5vw;
+}
+
+#first {
+
+	padding: 20px;
+}
+
+#square {
+	background-color: #D8557F;
+	height: 50vh;
+}
+
+.brown {
+	background-color: #CEC5B6;
 }
 
 .icon-bar {
