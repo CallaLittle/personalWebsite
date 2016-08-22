@@ -1,29 +1,29 @@
 // load gallary as default
-$(document).ready(function () {
+// $(document).ready(function () {
 
-	$('#navContainer').hide();
+// 	$('#navContainer').hide();
 
-	// $('#content').load('landing.html');
+// 	// $('#content').load('landing.html');
 	
-	// load gallary when clicked
-	$(".portfolio").on('click', function() {
+// 	// load gallary when clicked
+// 	$(".portfolio").on('click', function() {
 
-		$('#navContainer').show();
-		$('#landing').hide();
-		$("#content").load("maps.html")
+// 		$('#navContainer').show();
+// 		$('#landing').hide();
+// 		$("#content").load("maps.html")
 		
-		return false;
+// 		return false;
 
-	});
+// 	});
 
-	$(".about").on('click', function() {
+// 	$(".about").on('click', function() {
 
-		$('#navContainer').show();
-		$('#landing').hide();
-		$("#content").load("about.html");
+// 		$('#navContainer').show();
+// 		$('#landing').hide();
+// 		$("#content").load("about.html");
 			
-		return false;
+// 		return false;
 		
-	});
+// 	});
 
-});
+// });
