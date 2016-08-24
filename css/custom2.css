@@ -1,0 +1,97 @@
+
+
+/*#callalily {
+	position: absolute;
+}*/
+
+
+
+/*li {
+	list-style-type: none;
+}
+*/
+
+#landing-font {
+	position: absolute;
+}
+#myname {
+/*	position: absolute;
+	margin-left: 37%; */
+	margin-top: 20%;
+/*	font-size: 50px;*/	
+}
+
+
+#myname h1{
+	font-size: 6vw;	
+	letter-spacing: .5vw;
+}
+
+.expertise {
+/*	position: absolute;
+	margin-left: 42%;
+	margin-top: 15%;*/
+	font-size: 2.5vw;	
+
+}
+
+#scroll-button {
+	position: relative;
+	margin-right: 50%;
+	margin-left: 50%;
+	background-color: #CEC5B6;
+}
+
+.glyphicon {
+	font-size: 2.5vw;
+}
+
+#square {
+	position: absolute;
+	top: 60%;
+	background-color: #D8557F;
+	height: 50vh;
+}
+
+.brown {
+	background-color: #FEECD5;
+}
+
+.icon-bar {
+   background-color: #FF0000 !important;
+}
+
+.navbar-brand {
+	font-size: 16px;
+}
+
+
+/*.container {
+	height: 50px !important;
+}*/
+
+@media all and (max-width: 992px){
+/*	#expertise {
+		position: absolute;
+		margin-left: 25%;
+		margin-top: 110%;*/
+/*		font-size: 2.5vw;	
+	}
+
+	#myname {
+		margin-top: 0%;
+	}
+
+	#callalily {
+		margin-top: 15%;
+	}
+
+	#myname h1{
+		font-size: 4vw;	
+	}
+}*/
+
+/*#rose {
+	margin-top: 25%;
+	width: 500px;
+}*/
