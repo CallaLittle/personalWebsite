@@ -2,9 +2,17 @@
 	width: 100%;
 }
 
-#sat-bkgrnd {
+#background-imgs {
 	background-color: #f6f6f6;
 	height: 100vh;
+	border-style: solid;
+	border-width: 10vh;
+	border-color: #000;
+}
+
+#sat-bkgrnd {
+/*	background-color: #f6f6f6;
+	height: 100vh;*/
 /*	-webkit-filter: blur(20px);
 	filter: blur(10px);*/
 }
@@ -35,10 +43,40 @@
 
 #landing {
 	position: absolute;
-	top: 50%;
+	top: 25%;
 	font-family: Georgia;
 }
 
 #my-name {
-	font-size: 20px
+	font-size: 7vw;
 }
+
+#expertise {
+	font-size: 2.5vw;
+	text-align: center;
+/*	margin-top: -3vh;*/
+}
+
+#nav-container {
+	position: absolute;
+	top: 40%;
+	right: 0vw;
+	font-size: 1.5vw;
+
+}
+
+#nav {
+	background-color: #000;
+	display: inline-block;
+	color: #fff;
+	padding: 15px;
+}
+
+#nav-border {
+	width: 10vh;
+	background-color: #ffffff;
+	display: inline-block;
+	height: 100%;
+			padding: 15px;
+}
+
